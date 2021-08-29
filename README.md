@@ -1,5 +1,7 @@
 # Frontend Mentor - Shortly URL shortening API Challenge
 
+# Live app here https://short-lnk.herokuapp.com
+
 ![Design preview for the Shortly URL shortening API coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
