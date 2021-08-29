@@ -1,0 +1,1 @@
+// fetch('https://onplaceholder.typicode.on => console.log(json))

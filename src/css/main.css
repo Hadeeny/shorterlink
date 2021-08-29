@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.box {
+  align-content: center;
+  width: 75%;
+  align-self: center;
+}
+
+.input-box {
+  background: url("../assets/bg-shorten-desktop.svg");
+  background-color: #232027;
+  background-size: cover;
+  width: 75%;
+  height: 120px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -60px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+form input {
+  width: 70%;
+  height: 50px;
+  border-radius: 10px;
+}
+form input:focus {
+  outline: none;
+}
+form input::placeholder {
+  color: #2e2c3a;
+  font-weight: 100;
+  font-size: 20px;
+  opacity: 40%;
+}
+form input[type=text] {
+  color: #2e2c3a;
+  font-size: 20px;
+  padding: 0 20px;
+}
+form button {
+  background-color: #2bd1d1;
+  margin-left: 10px;
+  padding: 10px 5%;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+form button:hover {
+  background-color: #9be3e2;
+}
+
+.info {
+  margin: 100px 0;
+  text-align: center;
+}
+.info h1 {
+  margin-bottom: 14px;
+}
+
+.url-box {
+  width: 100%;
+  margin-top: 70px;
+}
+
+.urls {
+  margin-bottom: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #232027;
+  height: 50px;
+  padding: 0 30px;
+  border-radius: 10px;
+}
+.urls button {
+  background-color: #2bd1d1;
+  padding: 10px 28px;
+  border-radius: 5px;
+  margin-left: 15px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+.urls button:hover {
+  background-color: #9be3e2;
+}
+.urls .copied {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+}
+.urls .copied:hover {
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media all and (max-width: 800px) {
+  .input-box {
+    margin-top: -37px;
+    margin-bottom: 60px;
+    height: 190px;
+  }
+
+  .url-box {
+    all: unset;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+  }
+  .url-box .urls {
+    background-color: #f0f1f6;
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+    justify-content: center;
+  }
+  .url-box .item-1 {
+    border-radius: 8px 8px 0 0;
+    background-color: white;
+    width: 112%;
+    border-bottom: 1px solid black;
+    padding: 10px;
+  }
+  .url-box .item-1 a {
+    color: black;
+    font-weight: bold;
+  }
+  .url-box .item-2 {
+    border-radius: 0 0 8px 8px;
+    padding: 10px;
+    background-color: white;
+    width: 112%;
+    display: flex;
+    flex-direction: column;
+  }
+  .url-box .item-2 a {
+    color: #2bd1d1;
+    font-weight: bold;
+  }
+  .url-box .item-2 button {
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  form {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  form input {
+    width: 85%;
+  }
+  form button {
+    width: 85%;
+    margin-left: 2px;
+  }
+
+  button {
+    height: 50px;
+  }
+
+  .info {
+    margin-top: 150px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

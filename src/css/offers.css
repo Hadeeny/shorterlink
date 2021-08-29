@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.offers {
+  position: relative;
+  z-index: 50;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 320px;
+  margin-bottom: 100px;
+}
+
+.brand {
+  width: 300px;
+  height: 230px;
+  background-color: white;
+  border-radius: 5px;
+  position: relative;
+}
+
+.record {
+  align-self: center;
+}
+
+.custom {
+  align-self: flex-end;
+}
+
+.line {
+  background-color: #2bd1d1;
+  position: absolute;
+  bottom: 280px;
+  width: 75%;
+  height: 10px;
+  z-index: 1;
+}
+
+aside {
+  margin: 30px 30px;
+}
+aside h1 {
+  margin-bottom: 10px;
+}
+aside p {
+  color: #2e2c3a;
+  font-size: 15px;
+  font-weight: bolder;
+  opacity: 40%;
+}
+
+.circle {
+  margin-left: 30px;
+  margin-top: -35px;
+  display: flex;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #2e2c3a;
+}
+.circle .brand-logo {
+  width: 30px;
+  height: 30px;
+  align-self: center;
+}
+
+@media all and (max-width: 800px) {
+  .offers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .brand {
+    margin-bottom: 60px;
+  }
+
+  .line {
+    height: 75%;
+    width: 10px;
+    position: relative;
+    margin-top: 200px;
+    z-index: 1000;
+  }
+
+  .circle {
+    margin-left: 115px;
+  }
+
+  .custom {
+    align-self: center;
+  }
+}
+
+/*# sourceMappingURL=offers.css.map */
