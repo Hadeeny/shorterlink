@@ -39,7 +39,6 @@ header {
   padding: 15px;
   cursor: pointer;
   font-weight: bolder;
-  color: #2e2c3a;
 }
 
 .menu ul.sign-up {
@@ -169,7 +168,6 @@ header {
   }
   .menu li {
     color: black;
-    opacity: 40%;
   }
   .menu .button {
     margin-top: 8px;
