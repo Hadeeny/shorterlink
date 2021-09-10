@@ -2,7 +2,7 @@
 
 [live App URL here](https://short-lnk.herokuapp.com/)
 
-![Design preview for the Shortly URL shortening API coding challenge](https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/erg4fyzl3bu0r4kwcvvq.jpg)
+![Design preview for the Shortly URL shortening API coding challenge](https://short-lnk.herokuapp.com/)
 
 ## Welcome! 👋
 
