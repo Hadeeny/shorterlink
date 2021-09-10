@@ -15,6 +15,7 @@
 .boost {
   text-align: center;
 }
+
 .boost h1 {
   margin-top: 40px;
   padding-top: 35px;
@@ -22,6 +23,7 @@
   color: #f0f1f6;
   font-size: 40px;
 }
+
 .boost button {
   background-color: #2bd1d1;
   padding: 15px 30px;
@@ -31,6 +33,7 @@
   font-weight: bolder;
   font-size: 19px;
 }
+
 .boost button:hover {
   background-color: #9be3e2;
 }
@@ -40,5 +43,4 @@
     margin-top: 350px;
   }
 }
-
 /*# sourceMappingURL=submain.css.map */

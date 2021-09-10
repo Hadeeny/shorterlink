@@ -42,7 +42,6 @@ header {
   }
 }
 
-
 .button {
   border: none;
   color: white;
@@ -166,7 +165,7 @@ header {
       color: $secondary;
     }
   }
-  .menu.active{
+  .menu.active {
     display: flex;
     justify-content: space-between;
   }

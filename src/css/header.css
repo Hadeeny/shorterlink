@@ -31,6 +31,7 @@ header {
   border-radius: 10px;
   display: none;
 }
+
 .menu li {
   text-align: center;
   list-style: none;
@@ -39,6 +40,7 @@ header {
   cursor: pointer;
   font-weight: bolder;
 }
+
 .menu ul.sign-up {
   margin-top: 10px;
   border-top: 1px white solid;
@@ -55,6 +57,7 @@ header {
   font-weight: bolder;
   cursor: pointer;
 }
+
 .button:hover {
   background-color: #9be3e2;
   color: #f0f1f6;
@@ -95,13 +98,16 @@ header {
 .deets {
   margin-top: 30px;
 }
+
 .deets .message {
   text-align: center;
 }
+
 .deets h1 {
   font-size: 60px;
   line-height: 60px;
 }
+
 .deets p {
   margin-top: 20px;
   font-size: 18px;
@@ -109,6 +115,7 @@ header {
   font-weight: 700;
   opacity: 40%;
 }
+
 .deets button {
   margin-top: 50px;
   background-color: #2bd1d1;
@@ -120,6 +127,7 @@ header {
   border: none;
   cursor: pointer;
 }
+
 .deets button:hover {
   background-color: #9be3e2;
   color: #f0f1f6;
@@ -139,7 +147,6 @@ header {
   nav .toggle {
     display: none;
   }
-
   .menu {
     margin-top: -38px;
     width: 100%;
@@ -169,12 +176,10 @@ header {
     width: 120px;
     color: #f0f1f6;
   }
-
   .menu.active {
     display: flex;
     justify-content: space-between;
   }
-
   .deets {
     display: flex;
     position: relative;
@@ -193,10 +198,8 @@ header {
     position: absolute;
     left: 500px;
   }
-
   header {
     height: 700px;
   }
 }
-
 /*# sourceMappingURL=header.css.map */

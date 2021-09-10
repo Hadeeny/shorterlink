@@ -42,9 +42,11 @@
 aside {
   margin: 30px 30px;
 }
+
 aside h1 {
   margin-bottom: 10px;
 }
+
 aside p {
   color: #2e2c3a;
   font-size: 15px;
@@ -62,6 +64,7 @@ aside p {
   border-radius: 50%;
   background-color: #2e2c3a;
 }
+
 .circle .brand-logo {
   width: 30px;
   height: 30px;
@@ -74,11 +77,9 @@ aside p {
     flex-direction: column;
     align-items: center;
   }
-
   .brand {
     margin-bottom: 60px;
   }
-
   .line {
     height: 75%;
     width: 10px;
@@ -86,14 +87,11 @@ aside p {
     margin-top: 200px;
     z-index: 1000;
   }
-
   .circle {
     margin-left: 115px;
   }
-
   .custom {
     align-self: center;
   }
 }
-
 /*# sourceMappingURL=offers.css.map */

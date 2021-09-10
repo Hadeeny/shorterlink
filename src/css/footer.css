@@ -19,21 +19,25 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+
 .footer-container .footer-box {
   width: 75%;
   height: 250px;
   display: flex;
   justify-content: space-between;
 }
+
 .footer-container ul {
   list-style: none;
 }
+
 .footer-container h1 {
   color: white;
   font-size: 20px;
   margin-bottom: 20px;
   cursor: pointer;
 }
+
 .footer-container li {
   line-height: 30px;
   color: #f0f1f6;
@@ -42,25 +46,30 @@ footer {
   opacity: 60%;
   cursor: pointer;
 }
+
 .footer-container li:hover {
   color: #2bd1d1;
 }
+
 .footer-container .socials {
   padding-top: 5px;
   width: 200px;
   display: flex;
   justify-content: space-between;
 }
+
 .footer-container .logo {
   display: flex;
   justify-content: space-between;
   align-self: flex-start;
   color: white;
 }
+
 .footer-container .platforms {
   cursor: pointer;
   fill: #f0f1f6;
 }
+
 .footer-container .platforms:hover {
   fill: #2bd1d1;
 }
@@ -69,7 +78,6 @@ footer {
   footer {
     all: unset;
   }
-
   .footer-container {
     all: unset;
     background: #232027;
@@ -80,7 +88,6 @@ footer {
     flex-direction: column;
     align-items: center;
   }
-
   .footer-box {
     display: flex;
     flex-direction: column;
@@ -88,14 +95,11 @@ footer {
     text-align: center;
     margin-top: 30px;
   }
-
   .links {
     padding-top: 20px;
   }
-
   .socials {
     margin: 20px 0;
   }
 }
-
 /*# sourceMappingURL=footer.css.map */
