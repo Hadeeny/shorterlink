@@ -167,7 +167,7 @@ header {
     width: unset;
   }
   .menu li {
-    color: #2e2c3a;
+    color: black;
     opacity: 40%;
   }
   .menu .button {
