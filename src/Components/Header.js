@@ -28,7 +28,7 @@ const Header = () => {
             </ul>
             <ul className="sign-up">
               <li className="item">Login</li>
-              <button className="button">Sign Up</button>
+              <button className="button">Segun</button>
             </ul>
           </div>
           {/* </Zoom> */}
