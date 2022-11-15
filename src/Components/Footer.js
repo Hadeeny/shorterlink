@@ -34,7 +34,7 @@ const Footer = () => {
               <div className="links">
                 <h1>Company</h1>
                 <ul style={{ color: "black" }}>
-                  <li>About</li>
+                  <li style={{ color: "black" }}>About</li>
                   <li>Our Team</li>
                   <li>Careers</li>
                   <li>Contact</li>
