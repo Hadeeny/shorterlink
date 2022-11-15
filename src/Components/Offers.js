@@ -18,7 +18,7 @@ const Offers = () => {
             </div>
             <aside>
               <h1>Brand Recognition</h1>
-              <p>
+              <p style={{ color: "black" }}>
                 Build your brand recognition with each click. Generic links
                 don't mean a thing. Branded links help instil confidence in your
                 content
@@ -37,7 +37,7 @@ const Offers = () => {
             </div>
             <aside>
               <h1>Detailed Records</h1>
-              <p>
+              <p style={{ color: "black" }}>
                 Gain insights into who is clicking your links. Knowing when and
                 where people engage in your content helps inform better
                 decision.
@@ -56,7 +56,7 @@ const Offers = () => {
             </div>
             <aside>
               <h1>Fully Customizable</h1>
-              <p>
+              <p style={{ color: "black" }}>
                 Improve brand awareness and content discoverability through
                 customizable links. Supercharging audience engagement.
               </p>
