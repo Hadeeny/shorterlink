@@ -17,7 +17,7 @@ const Footer = () => {
             <div className="footer-box">
               <div className="links">
                 <h1>Features</h1>
-                <ul style={{ color: "black" }}>
+                <ul>
                   <li>Link shortening</li>
                   <li>Branded Links</li>
                   <li>Analytics</li>
@@ -25,7 +25,7 @@ const Footer = () => {
               </div>
               <div className="links">
                 <h1>Resources</h1>
-                <ul style={{ color: "black" }}>
+                <ul>
                   <li>Blog</li>
                   <li>Developers</li>
                   <li>support</li>
@@ -33,8 +33,8 @@ const Footer = () => {
               </div>
               <div className="links">
                 <h1>Company</h1>
-                <ul style={{ color: "black" }}>
-                  <li style={{ color: "black" }}>About</li>
+                <ul>
+                  <li>About</li>
                   <li>Our Team</li>
                   <li>Careers</li>
                   <li>Contact</li>
