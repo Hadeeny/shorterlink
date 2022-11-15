@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+p {
+  color: black;
+}
+
 footer {
   background-color: #232027;
   width: 100%;

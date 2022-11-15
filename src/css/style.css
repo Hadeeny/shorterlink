@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+p {
+  color: black;
+}
+
 body {
   background-color: #f0f1f6;
 }

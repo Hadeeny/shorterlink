@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+p {
+  color: black;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;

@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+p {
+  color: black;
+}
+
 header {
   background-color: white;
   padding: 10px 10%;

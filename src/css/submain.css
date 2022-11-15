@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+p {
+  color: black;
+}
+
 .submain {
   background: url("../assets/bg-boost-desktop.svg");
   background-color: #3a3053;
